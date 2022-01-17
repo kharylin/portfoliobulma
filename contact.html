@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- links for style css, font awesome and bulma -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/02137efa1c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" />
+
+
+    <title>Contact</title>
+
+</head>
+
+<body>
+<!--navbar-->
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu is-active">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="index.html">
+                        Home
+                    </a>
+
+                    <a class="navbar-item" href="contact.html">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+<!--first column-->
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="profile.png" alt="Profile photo">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-contentt">
+                                    <p class="title is-4">Kharylin Dias</p>
+                                    <span class="tag is-dark -medium">Dev Front-End</span>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>+55 (11) 98386-0595</p>
+                                <p>kharylin@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--second column-->
+                <div class="column is-9">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                About me
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                <!-- form -->
+                                <div class="field">
+                                    <label class="label">Name</label>
+                                    <div class="control">
+                                        <input class="input" type="text" placeholder="Your name here">
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <label class="label">Email</label>
+                                    <div class="control has-icons-left has-icons-right">
+                                        <input class="input" type="email" placeholder="Your e-mail here">
+                                        <span class="icon is-small is-left">
+                                            <i class="fas fa-envelope"></i>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <label class="label">Subject</label>
+                                    <div class="control">
+                                        <div class="select">
+                                            <select>
+                                                <option>Which subject do you'd like to talk about?</option>
+                                                <option>Jobs</option>
+                                                <option>Other</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="field">
+                                    <label class="label">Message</label>
+                                    <div class="control">
+                                        <textarea class="textarea" placeholder="Type your message here"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="field is-grouped">
+                                    <div class="control">
+                                        <button class="button is-dark">Send</button>
+                                    </div>
+                                </div>
+                                <!--end form-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--twitter field-->
+                    <article class="media">
+                        <figure class="media-left">
+                            <p class="image is-64x64">
+                                <img src="twitter.png">
+                            </p>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                <p>
+                                    <strong>Kharylin</strong> <small>@kharylin</small> <small>31m</small>
+                                    <br>
+                                    Do you wanna have a quickly talk? Hit me on Twitter! <a class="click" href="https://twitter.com/" target="_blanket">Click Here!</a>
+                                </p>
+                            </div>
+                            <nav class="level is-mobile">
+                                <div class="level-left">
+                                    <a class="level-item">
+                                        <span class="icon is-small"><i class="fas fa-reply"></i></span>
+                                    </a>
+                                    <a class="level-item">
+                                        <span class="icon is-small"><i class="fas fa-retweet"></i></span>
+                                    </a>
+                                    <a class="level-item">
+                                        <span class="icon is-small"><i class="fas fa-heart"></i></span>
+                                    </a>
+                                </div>
+                            </nav>
+                        </div>
+
+                    </article>
+                    <!--last field-->
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                Where else you can find me?
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <p class="title is-5"><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/kharylin/" target="_blanket"> Linkedin</a></p>
+                            
+                            <hr>
+                            <div class="content">
+                                <p class="title is-5"><i class="fab fa-github-square"></i> <a href="https://github.com/kharylin" target="_blanket">Github</a></p>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+
+</body>
+
+</html>

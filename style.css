@@ -1,0 +1,43 @@
+body {
+    width: auto;
+    background-color: #e5e5e9;
+}
+
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.emailfield {
+    padding-bottom: 50px;
+}
+
+.card-content a {
+
+    text-decoration: none;
+    color: #4B6587;
+}
+
+.media {
+
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.media .media-contentt {
+    margin-top: -25px;
+}
+
+.click {
+    color: #2C2E43;
+    font-weight: bold;
+}
+
+.click:hover {
+    font-size: 18px;
+}
